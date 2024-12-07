@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - `app.OpenDirectory(dir string)` to open the system file explorer to the directory `dir` by [@leaanthony](https://github.com/leaanthony)
+- `app.OpenDirectory(dir string, selectFile bool)` to open the system file explorer to the directory or file specified via `path` controlled via `selectFile` by [@Krzysztofz01](https://github.com/Krzysztofz01)
 
 ### Fixed
 
